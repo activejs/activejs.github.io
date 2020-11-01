@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>
-      ActiveJS
-    </title>
+    <title>ActiveJS</title>
     <base href="/" />
     <meta
       name="description"
@@ -12,6 +10,27 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="favicon.png" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9NLX6XSCR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-T9NLX6XSCR');
+    </script>
+
+    <meta property="og:title" content="ActiveJS" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Intuitive and Pragmatic, Reactive State Management for JavaScript Apps"
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/activejs/static/master/AJS%20Logo%20Full%20-%20Padded.png"
+    />
   <link rel="stylesheet" href="styles.9b7bb1d81e78f2936a8c.css"></head>
   <body>
     <ajs-root></ajs-root>
