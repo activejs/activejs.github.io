@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Perge Old Compiled Files
+        run: rm *.js *.css
+
       - name: Get latest release version
         id: latest-release
         run: |
